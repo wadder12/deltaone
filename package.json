@@ -1,0 +1,22 @@
+{
+  "name": "deltabot",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0"
+  },
+  "scripts": {
+    "start": "bun src/index.js",
+    "dev": "nodemon index.js"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "f3b56b14e1": {
+    "message": "Can't find variable: input",
+    "stack": "ReferenceError: Can't find variable: input\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/ping.js:16:10)\n    at execute (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/ping.js:5:19)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/utils/config/interactionCreateHandler.js:9:28)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/utils/config/interactionCreateHandler.js:2:43)\n    at emit2 (node:events:186:45)\n    at handle (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/client/actions/InteractionCreate.js:78:18)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:3:44)\n    at handlePacket (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:201:33)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:134:26)\n    at emit (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/@vladfrangu/async_event_emitter/dist/index.cjs:293:38)"
+  },
+  "540529f45a": {
+    "message": "Unable to convert color to a number.",
+    "stack": "Error: Unable to convert color to a number.\n    at resolveColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/util/Util.js:291:9)\n    at setColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/structures/EmbedBuilder.js:30:21)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/betterStack.js:39:63)\n    at asyncFunctionResume (native)\n    at promiseReactionJobWithoutPromiseUnwrapAsyncContext (native)\n    at promiseReactionJob (native)\n    at processTicksAndRejections (native)"
+  },
+  "8dd3bc3fe5": {
+    "message": "Can't find variable: Colors",
+    "stack": "ReferenceError: Can't find variable: Colors\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/betterStack.js:40:63)\n    at processTicksAndRejections (:12:39)"
+  },
+  "e90944d5fd": {
+    "message": "Can't find variable: colors",
+    "stack": "ReferenceError: Can't find variable: colors\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/betterStack.js:40:63)\n    at processTicksAndRejections (:12:39)"
+  },
+  "d50be8eae4": {
+    "message": "undefined is not an object (evaluating 'response.data.data.attributes')",
+    "stack": "TypeError: undefined is not an object (evaluating 'response.data.data.attributes')\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/betterStack.js:22:45)\n    at processTicksAndRejections (:12:39)"
+  },
+  "928d89962d": {
+    "message": "undefined is not an object (evaluating 'heartbeat.status.toUpperCase')",
+    "stack": "TypeError: undefined is not an object (evaluating 'heartbeat.status.toUpperCase')\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/betterStack.js:25:233)\n    at processTicksAndRejections (:12:39)"
+  }
+}
