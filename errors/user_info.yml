@@ -1,0 +1,48 @@
+bot:
+  name: deltabot
+  version: 1.0.0
+  description: This is a bot for managing our server.
+  language: javascript
+  libraries:
+    - discord.js
+    - openai
+    - google gemmi
+    - asyncio
+  commands:
+    - name: greet
+      description: The bot greets the user.
+    - name: kick
+      description: The bot kicks a user from the server.
+    - name: ban
+      description: The bot bans a user from the server.
+  admins:
+    - name: Admin1
+      id: 1234567890
+    - name: Admin2
+      id: 0987654321
+servers:
+  - name: Server1
+    id: 1234567890
+    ip: 192.168.1.1
+    admins:
+      - Admin1
+      - Admin2
+  - name: Server2
+    id: 0987654321
+    ip: 192.168.1.2
+    admins:
+      - Admin1
+  - name: Server3
+    id: 3456789012
+    ip: 192.168.1.3
+    admins:
+      - Admin2
+
+database:
+  - we use: supabase
+  - we use: postgres
+  - we use: redis
+
+hosting:
+  - we use: ionos vps server
+  - is it good?: yes, cheap prices and great performance

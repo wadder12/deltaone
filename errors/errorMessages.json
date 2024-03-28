@@ -22,5 +22,33 @@
   "928d89962d": {
     "message": "undefined is not an object (evaluating 'heartbeat.status.toUpperCase')",
     "stack": "TypeError: undefined is not an object (evaluating 'heartbeat.status.toUpperCase')\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/betterStack.js:25:233)\n    at processTicksAndRejections (:12:39)"
+  },
+  "a062247c93": {
+    "message": "Received one or more errors",
+    "stack": "Error: Received one or more errors\n    at new _BaseError (:1:28)\n    at new _CombinedPropertyError (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1425:12)\n    at handle (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1529:97)\n    at parse (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/@sapphire/shapeshift/dist/cjs/index.cjs:1372:98)\n    at addFields (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/@discordjs/builders/dist/index.js:290:38)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/chatter.js:25:127)\n    at processTicksAndRejections (:12:39)"
+  },
+  "39766eb63c": {
+    "message": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.0-pro:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+    "stack": "Error: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/@google/generative-ai/dist/index.mjs:254:84)\n    at processTicksAndRejections (:12:39)"
+  },
+  "24b8cbc6cc": {
+    "message": "Can't find variable: MODEL_NAME1",
+    "stack": "ReferenceError: Can't find variable: MODEL_NAME1\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/chatter.js:41:21)\n    at processTicksAndRejections (:12:39)"
+  },
+  "19cd31a10d": {
+    "message": "undefined is not an object (evaluating 'guild.createdAt1.toUTCString')",
+    "stack": "TypeError: undefined is not an object (evaluating 'guild.createdAt1.toUTCString')\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/serverinfo.js:36:59)\n    at processTicksAndRejections (:12:39)"
+  },
+  "b62a5b92fd": {
+    "message": "Color must be within the range 0 - 16777215 (0xFFFFFF).",
+    "stack": "Error: Color must be within the range 0 - 16777215 (0xFFFFFF).\n    at resolveColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/util/Util.js:289:62)\n    at setColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/structures/EmbedBuilder.js:30:21)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/serverinfo.js:37:10)\n    at asyncFunctionResume (native)\n    at promiseReactionJobWithoutPromiseUnwrapAsyncContext (native)\n    at promiseReactionJob (native)\n    at processTicksAndRejections (native)"
+  },
+  "95941ed748": {
+    "message": "Color must be within the range 0 - 16777215 (0xFFFFFF).",
+    "stack": "Error: Color must be within the range 0 - 16777215 (0xFFFFFF).\n    at resolveColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/util/Util.js:289:62)\n    at setColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/structures/EmbedBuilder.js:30:21)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/serverinfo.js:37:10)\n    at asyncFunctionResume (native)\n    at promiseReactionJobWithoutPromiseUnwrapAsyncContext (native)\n    at promiseReactionJob (native)\n    at processTicksAndRejections (native)"
+  },
+  "54b3e45c11": {
+    "message": "Color must be within the range 0 - 16777215 (0xFFFFFF).",
+    "stack": "Error: Color must be within the range 0 - 16777215 (0xFFFFFF).\n    at resolveColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/util/Util.js:289:62)\n    at setColor (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/node_modules/discord.js/src/structures/EmbedBuilder.js:30:21)\n    at <anonymous> (/Users/andrewwade/Desktop/Development/Typescript Projects/DeltaBot/src/commands/common/serverinfo.js:37:10)\n    at asyncFunctionResume (native)\n    at promiseReactionJobWithoutPromiseUnwrapAsyncContext (native)\n    at promiseReactionJob (native)\n    at processTicksAndRejections (native)"
   }
 }

@@ -1,3 +1,4 @@
+// src/utils/events/errorHandler.js
 import { EmbedBuilder } from 'discord.js';
 import fs from 'fs';
 import crypto from 'crypto'; 
@@ -24,12 +25,17 @@ async function sendErrorEmbed(interaction, error) {
   const userErrorMessage = `Sorry, an error occurred. Please report this ID to an admin: ${errorId}`;
 
   const embed = new EmbedBuilder()
-    .setColor(0xFF0000) 
+    .setColor(0xFF0000) // Red color for error
     .setTitle('Error')
     .setDescription(userErrorMessage);
 
-  await interaction.reply({ embeds: [embed], ephemeral: true }).catch(console.error);
+  if (interaction.deferred || interaction.replied) {
+    await interaction.followUp({ embeds: [embed], ephemeral: true }).catch(console.error);
+  } else {
+    await interaction.reply({ embeds: [embed], ephemeral: true }).catch(console.error);
+  }
 }
+
 
 export { sendErrorEmbed };
 
